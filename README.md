@@ -2,7 +2,7 @@
 
 A simple Flutter app demonstrating the usage of Firebase Extensions, specifically the [Transcribe Speech to Text](https://extensions.dev/extensions/googlecloud/speech-to-text) by Google Cloud. The app supports Android and iOS.
 
-It was build using Flutter 3.22.3.
+It was build using Flutter 3.22.3. The app was presented during DevFest Warsaw 2024. You can check the slides [here](https://docs.google.com/presentation/d/15_aWTywonSoweg8zXwm3QaD-utFvyV_i9CmgFX42mek/edit?usp=sharing).
 
 Users can take or import photos from their devices and record a voice note. These are saved to Firebase Storage, and the Speech-to-Text extension transcribes the voice recordings and saves the transcriptions to Firestore. The app displays the transcriptions next to the corresponding images.
 
